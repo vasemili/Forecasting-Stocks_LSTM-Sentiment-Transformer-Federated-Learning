@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T07:05:53.906Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="7By1Kf0_BkQ0IzqL6dAe" version="24.2.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T07:12:03.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="x6ceOgjClfGwPrIxd2T0" version="24.2.0" type="github">
   <diagram name="Page-1" id="q6ubhLiRqVWWD-g9hJuA">
     <mxGraphModel dx="1232" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -366,6 +366,9 @@
         </mxCell>
         <mxCell id="nWNDTCLdVmM716hXi55F-110" value="Weights and Biases are Computed again at Local Models then sent back to Global Model, and this process iterates for &lt;i&gt;n&lt;/i&gt; number of times." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="429" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nWNDTCLdVmM716hXi55F-112" value="NOTE: Data is not extracted, only the model&#39;s weights and biases. These weights and biases are obtained from running local models with each company&#39;s datasets. That way, the data privacy for each company is maintained." style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="635.8" y="350" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
